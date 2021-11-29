@@ -1,0 +1,16 @@
+h1{
+    color: red;
+}
+h2{
+    color: grey;
+    text-decoration: underline;
+}
+.Franky, .Avi, .Tony{
+    color: red;
+}
+p{
+    font-style: italic;
+}
+li{
+    list-style-type: upper-roman;
+}

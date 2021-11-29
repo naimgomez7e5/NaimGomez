@@ -1,0 +1,36 @@
+h1{
+    color: red;
+}
+h2{
+    color: grey;
+    text-decoration: underline;
+}
+.Franky:first-child{
+    font-style: italic; 
+    color: white;
+    background-color: green;
+}
+.Franky{
+    color: white;
+    background-color: green;
+}
+
+.Tony{
+    color: white;
+    background-color: green;
+}
+
+.Avi:first-child{
+    font-style: italic;
+    background-color: lightskyblue;
+}
+.Avi{
+    background-color: lightskyblue;
+}
+
+p{
+    font-style: italic;
+}
+li{
+    list-style-type: upper-roman;
+}
