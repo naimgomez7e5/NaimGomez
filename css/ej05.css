@@ -1,0 +1,97 @@
+/*
+    La fuente no coincide exactamente con la de la imagen, pero creo que se parece bastante.
+*/
+
+header #title {
+    background-color: #212121;
+    margin-bottom: -1.1em;
+
+}
+header #title h1 {
+        font-weight: 50;
+        font-stretch: ultra-expanded;
+        letter-spacing: 0.04em;
+        font-family: sans-serif;
+        color: white;
+        padding: 0.5em;
+}
+
+header #subtitle {
+    background-color: #979797;
+    padding-left: 1.1em; 
+    padding-right: 1.1em; 
+    margin-bottom: -0.7em;
+
+}
+header #subtitle h2 {
+    margin-right: 40%;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+header #menu {
+    background-color: #D2D2D2;
+
+}
+header #menu ul li {
+    display: inline-block;
+    padding-left: 11%;
+    padding-right: 11%;
+    font-weight: 550;
+}
+
+section {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.multiple-content p  {
+    text-align: left;
+    margin-top: 0em;
+
+    float:left;
+    width:49%
+}
+
+.content p  {
+    text-align: left;
+    margin-top: 0em;
+    float:left;
+}
+
+section img {
+    position:relative; 
+    z-index:1;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    position:relative; 
+    margin-right: 0.5em;
+}
+
+.container .centered {
+    position:relative; 
+    left:63px; 
+    top: -130px;
+    z-index:2;
+    color: gray;
+}
+
+.container .bottom-right {
+    position:relative; 
+    color: gray;
+    left:68px; 
+    top: -79px;
+    z-index:2;
+}
+
+footer {
+    background-color: #CACACA;
+}
+
+footer p {
+    padding: 2em;
+}
