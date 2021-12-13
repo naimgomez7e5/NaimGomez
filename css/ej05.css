@@ -41,23 +41,12 @@ header #menu ul li {
     font-weight: 550;
 }
 
+
+
+
+
 section {
-    display: flex;
-    margin-bottom: 1em;
-}
-
-.multiple-content p  {
-    text-align: left;
-    margin-top: 0em;
-
-    float:left;
-    width:49%
-}
-
-.content p  {
-    text-align: left;
-    margin-top: 0em;
-    float:left;
+    margin-bottom: 11em;
 }
 
 section img {
@@ -65,11 +54,16 @@ section img {
     z-index:1;
 }
 
+
 .container {
+    clear: both;
     width: 200px;
     height: 200px;
     position:relative; 
     margin-right: 0.5em;
+
+    float: left;
+    margin-right: 10px;
 }
 
 .container .centered {
@@ -78,6 +72,24 @@ section img {
     top: -130px;
     z-index:2;
     color: gray;
+
+
+}
+
+
+
+.multiple-content p:first-child  {
+    text-align: left;
+    float: left;
+    width: 37%;
+    margin-top: 0em;
+
+}
+
+.multiple-content p:last-child{
+    float: right;
+    width: 50%;
+    margin-top: 0em;
 }
 
 .container .bottom-right {
@@ -88,10 +100,9 @@ section img {
     z-index:2;
 }
 
-footer {
-    background-color: #CACACA;
-}
-
-footer p {
-    padding: 2em;
+footer{
+    clear: both;
+    padding: 1em;
+    margin-top: 24.4em;
+    background-color: lightgrey;
 }
